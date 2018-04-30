@@ -1,4 +1,4 @@
-package com.smartepsilon.end.to.end;
+package com.smartepsilon.cross.components;
 
 import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
 import static org.testng.Assert.assertEquals;
@@ -78,7 +78,6 @@ public class RepoViewApplicationComponentsIntegrationTest {
 		// given
 		// when
 		GithubRepositoryRto repoFound = testee.readByOwnerAndName(REPO_OWNER, REPO_ID);
-		System.out.println(repoFound);
 		
 		// then
 		assertNotNull(repoFound);

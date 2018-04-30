@@ -1,4 +1,4 @@
-package com.smartepsilon.gitrepo.resource;
+package com.smartepsilon.end.to.end;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
