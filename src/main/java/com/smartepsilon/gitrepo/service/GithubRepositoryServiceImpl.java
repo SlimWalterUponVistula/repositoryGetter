@@ -14,6 +14,4 @@ public class GithubRepositoryServiceImpl implements GithubRepositoryService {
 	public GithubRepository readByOwnerAndRepositoryName(String owner, String repositoryName) {
 		return githubRepositoryBackend.read(owner, repositoryName);
 	}
-	
-	
 }
