@@ -7,6 +7,7 @@ import javax.ws.rs.core.Response.Status;
 
 import com.smarepsilon.gitrepo.model.GithubRepository;
 import com.smartepsilon.backend.exception.RepositoryNotFound;
+
 public class GithhubRepositoryClient implements RepositoryClient {
 
 	private final RepositoryClientWithFallback webTargetWithFallback;

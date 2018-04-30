@@ -218,7 +218,8 @@
 					</executions>
 				</plugin>
 			</plugins>
-		</pluginManagement>
+	</pluginManagement>
+
 		<finalName>githubrepoviewer</finalName>
 	</build>
 </project>
